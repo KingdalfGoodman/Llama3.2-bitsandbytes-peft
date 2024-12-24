@@ -2,10 +2,9 @@
 
 [English](README.md) | [中文](README_zh-CN.md)
 
-> A lightweight framework for training Llama-3.2-1B-Instruct using 4-bit quantization and LoRA (r=32)
+> Example: Training Llama-3.2-1B-Instruct with this framework using 4-bit quantization and LoRA (r=32)
 > 
 > :rocket: Only 2.8GB VRAM required for training (batch_size=1, max_length=1024) :rocket:
-
 
 A lightweight framework for efficient-LLMs, combining quantization(4bit/8bit) with LoRA. This framework enables fine-tuning of large models on consumer-grade hardware by leveraging:
 - **Quantization**: Supports both 4-bit and 8-bit quantization using BitsAndBytes
