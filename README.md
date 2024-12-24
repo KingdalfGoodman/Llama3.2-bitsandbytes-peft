@@ -16,7 +16,7 @@ A lightweight framework for efficient-LLMs, combining quantization(4bit/8bit) wi
 
 ### 1.1 Core Capabilities
 
-- **Advanced Quantization**
+- **Quantization**
   - 8-bit quantization with configurable threshold and skip modules
   - 4-bit quantization with NF4/FP4 data types and nested quantization support
 
@@ -40,7 +40,7 @@ A lightweight framework for efficient-LLMs, combining quantization(4bit/8bit) wi
 ### 1.3 Evaluation Pipeline
 
 - Built-in support for various benchmarks: WikiText, ARC_Challenge, MMLU, HellaSwag, IFEval, GPQA
-- Evaluation datasets are included in the repository
+- Evaluation datasets can be downloaded according to the readme in each dataset
 
 ### 1.4 Llama Prompt Format
 
