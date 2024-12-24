@@ -1,4 +1,7 @@
 # LLM Quantization Framework with LoRA
+
+[English](README.md) | [中文](README_zh-CN.md)
+
 > A lightweight framework for training Llama-3.2-1B-Instruct using 4-bit quantization and LoRA (r=32)
 > 
 > :rocket: Only 2.8GB VRAM required for training (batch_size=1, max_length=1024) :rocket:
