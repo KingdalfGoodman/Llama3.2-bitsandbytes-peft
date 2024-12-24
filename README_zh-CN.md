@@ -2,10 +2,11 @@
 
 [English](README.md) | [中文](README_zh-CN.md)
 
-> 案例: 使用本框架训练 Llama-3.2-1B-Instruct 时, 采用 4-bit 量化和 LoRA (r=32) 
+> 案例: 使用本框架训练 Llama-3.2-1B-Instruct 时, 采用 4-bit 量化和 LoRA (r=32)
+> 
 > :rocket: 仅需 2.8GB 显存 (batch_size=1, max_length=1024) :rocket:
 
-这是通用的 LLM 轻量级框架, 结合了量化(4bit/8bit) 和 LoRA 技术。
+通用的 LLM 轻量级框架, 结合了量化(4bit/8bit) 和 LoRA 技术。
 
 - **量化(Quantization)**: 使用 BitsAndBytes 支持 4-bit 和 8-bit 量化
 - **PEFT**: 实现 LoRA 进行参数高效微调
