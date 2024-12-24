@@ -2,7 +2,7 @@
 
 [English](README.md) | [中文](README_zh-CN.md)
 
-> 案例: 使用本框架训练 Llama-3.2-1B-Instruct 时, 采用 4-bit 量化和 LoRA (r=32)
+> 案例: 使用本框架训练 Llama-3.2-1B-Instruct, 采用 4-bit 量化和 LoRA (r=32)
 > 
 > :rocket: 仅需 2.8GB 显存 (batch_size=1, max_length=1024) :rocket:
 
