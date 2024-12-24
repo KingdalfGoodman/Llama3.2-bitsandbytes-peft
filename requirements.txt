@@ -1,0 +1,13 @@
+torch==2.4.0
+transformers==4.47.0
+peft==0.14.0
+accelerate==1.2.0
+bitsandbytes==0.45.0
+flash-attn==2.7.2.post1
+datasets==3.2.0
+lm_eval==0.4.5
+numpy==2.2.0
+pandas==2.2.3
+safetensors==0.4.5
+scikit-learn==1.6.0
+scipy==1.14.1
